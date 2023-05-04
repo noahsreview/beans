@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "bean",
+		"description": "bean Resource Pack",
+		"uuid": "a48c9e3b-882a-f420-a174-e8706aac2c98",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.1.1"],
+			"blockbench_block_wizard": ["1.1.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "bean",
+			"type": "resources",
+			"uuid": "70216783-fd98-2ce0-9d82-0806bbf7b10f",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "noahsreview:bull",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bull"
+			},
+			"geometry": {
+				"default": "geometry.bull"
+			},
+			"animations": {
+				"walk": "animation.bull.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.bull.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#31261f",
+				"overlay_color": "#ab936a"
+			}
+		}
+	}
+}

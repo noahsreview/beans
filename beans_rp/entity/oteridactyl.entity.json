@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "noahsreview:oteridactyl",
+			"materials": {
+				"default": "phantom",
+				"invisible": "phantom_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/oteridactyl"
+			},
+			"geometry": {
+				"default": "geometry.oteridactyl"
+			},
+			"scripts": {
+				"initialize": ["variable.runtimeid = 0;", "variable.tailrotx = -5.0;", "variable.wingrotz = 0.0;"],
+				"animate": ["phantom_base_pose_controller", "move"]
+			},
+			"animations": {
+				"phantom_base_pose": "animation.oteridactyl.base_pose",
+				"phantom_base_pose_controller": "controller.animation.phantom.base_pose",
+				"move": "animation.oteridactyl.move"
+			},
+			
+			"sound_effects": {
+				"flap": "mob.phantom.flap"
+			},
+			"render_controllers": ["controller.render.phantom"],
+			"spawn_egg": {
+				"base_color": "#85813d",
+				"overlay_color": "#b56e0b"
+			}
+		}
+	}
+}

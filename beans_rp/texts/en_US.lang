@@ -1,0 +1,13 @@
+entity.meep:meep.name=meep
+item.spawn_egg.entity.meep:meep.name=Spawn meep
+tile.noahsreview:infdiamondblock.name=infinite diamond block
+entity.noahsreview:realistic_zombie.name=Realistic Zombie
+item.spawn_egg.entity.noahsreview:realistic_zombie.name=Spawn Realistic Zombie
+entity.noahsreview:bull.name=Bull
+item.spawn_egg.entity.noahsreview:bull.name=Spawn Bull
+entity.noahsreview:oteridactyl.name=Pterodactyl
+item.spawn_egg.entity.noahsreview:oteridactyl.name=Spawn Pterodactyl
+entity.noahsreview:demon.name=demon
+item.spawn_egg.entity.noahsreview:demon.name=Spawn demon
+entity.noahsreview:nether_dude.name=Nether Dude
+item.spawn_egg.entity.noahsreview:nether_dude.name=Spawn Nether Dude

@@ -1,0 +1,54 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "testing:infinitediamondin"
+    },
+    "groups": [
+      "testing"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "3 5",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:planks"
+      },
+      "1": {
+        "item": "minecraft:stone",
+        "data": 0
+      },
+      "2": {
+        "item": "minecraft:planks"
+      },
+      "3": {
+        "item": "minecraft:stone",
+        "data": 0
+      },
+      "5": {
+        "item": "minecraft:stone",
+        "data": 0
+      },
+      "6": {
+        "item": "minecraft:planks"
+      },
+      "7": {
+        "item": "minecraft:stone",
+        "data": 0
+      },
+      "8": {
+        "item": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "noahsreview:infdiamondblock",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

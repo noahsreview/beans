@@ -1,0 +1,30 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "noahsreview:bloodblade"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" r ",
+			" r ",
+			" s "
+		],
+		"key": {
+			"r": {
+				"item": "noahsreview:blood"
+			},
+			"s": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": [
+			{
+				"item": "noahsreview:bloodblade"
+			}
+		]
+	}
+}

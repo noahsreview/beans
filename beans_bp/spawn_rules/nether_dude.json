@@ -1,0 +1,37 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+      "description": {
+        "identifier": "noahsreview:nether_dude",
+        "population_control": "monster"
+      },
+      "conditions": [
+        {
+          "minecraft:spawns_on_surface": {},
+          "minecraft:brightness_filter": {
+            "min": -50,
+            "max": 1000,
+            "adjust_for_weather": true
+
+          },
+          
+          "minecraft:difficulty_filter": {
+            "min": "easy",
+            "max": "hard"
+          },
+          "minecraft:biome_filter": {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "nether"
+          },
+          "minecraft:weight": {
+            "default": 500
+          },
+          "minecraft:herd": {
+            "min_size": 1,
+            "max_size": 1
+          }
+        }
+      ]
+    }
+  }

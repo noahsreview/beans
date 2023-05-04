@@ -1,0 +1,17 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bloodblade": {
+			
+			"textures": "textures/items/bloodblade"
+		},
+        "blood": {
+			
+			"textures": "textures/items/Blood"
+		},
+		"my_chest": {
+			"textures": "textures/items/custom_chestplate"
+		}
+	}
+}

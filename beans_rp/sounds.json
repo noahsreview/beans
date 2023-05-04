@@ -1,0 +1,106 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"noahsreview:nether_dude": {
+				"events": {
+					"admire": "mob.piglin.admiring_item",
+					"ambient": "mob.piglin.ambient",
+					"angry": "mob.piglin.angry",
+					"attack": "mob.piglin.attack",
+					"celebrate": "mob.piglin.celebrate",
+					"death": "mob.piglin.death",
+					"hurt": "mob.piglin.hurt",
+					"jealous": "mob.piglin.jealous",
+					"retreat": "mob.piglin.retreat",
+					"step": {
+						"sound": "mob.piglin.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"noahsreview:demon": {
+				"events": {
+					"admire": "mob.piglin.admiring_item",
+					"ambient": "mob.piglin.ambient",
+					"angry": "mob.piglin.angry",
+					"attack": "mob.piglin.attack",
+					"celebrate": "mob.piglin.celebrate",
+					"death": "mob.piglin.death",
+					"hurt": "mob.piglin.hurt",
+					"jealous": "mob.piglin.jealous",
+					"retreat": "mob.piglin.retreat",
+					"step": {
+						"sound": "mob.piglin.step",
+						"volume": 0.35
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"noahsreview:oteridactyl": {
+				"events": {
+					"ambient": "mob.phantom.idle",
+					"attack": "mob.phantom.bite",
+					"death": "mob.phantom.death",
+					"flap": "mob.phantom.flap",
+					"hurt": "mob.phantom.hurt",
+					"swoop": {
+						"pitch": [0.95, 1.05],
+						"sound": "mob.phantom.swoop"
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 10
+			},
+			"noahsreview:bull": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [0.9, 1.1],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"noahsreview:realistic_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"meep:meep": {
+				"events": {
+					"ambient": "mob.irongolem.say",
+					"death": "mob.irongolem.death",
+					"hurt": "mob.irongolem.hit",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.irongolem.walk",
+						"volume": 1
+					},
+					"throw": {
+						"pitch": 1,
+						"sound": "mob.irongolem.throw",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "meep:meep",
+			"materials": {
+				"default": "iron_golem"
+			},
+			"textures": {
+				"default": "textures/entity/meep"
+			},
+			"geometry": {
+				"default": "geometry.meep"
+			},
+			"animations": {
+				"walk": "animation.meep.walk",
+				"move": "animation.meep.move",
+				"walk_to_target": "animation.meep.walk_to_target",
+				"move_to_target": "animation.meep.move_to_target",
+				"attack": "animation.meep.attack",
+				"flower": "animation.meep.flower",
+				"look_at_target": "animation.common.look_at_target",
+				"move_controller": "controller.animation.iron_golem.move",
+				"arm_controller": "controller.animation.iron_golem.arm_movement"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+				],
+				"animate": [
+					"look_at_target",
+					"move_controller",
+					"arm_controller"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#b547b7",
+				"overlay_color": "#09029e"
+			}
+		}
+		
+	}
+}

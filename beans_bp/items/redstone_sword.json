@@ -1,0 +1,140 @@
+
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "noahsreview:bloodblade",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 3600,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_damage": 500
+			},
+			"minecraft:mining_speed": 1.5,
+			"minecraft:damage": 5000,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": false,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10
+					},
+					{
+						"block": "minecraft:stone",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:iron_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:copper_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:diamond_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:coal_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:dirt",
+						"speed": 200
+					},
+					{
+						"block": "minecraft:grass",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:gold_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:deepslate",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:deepslate_gold_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:deepslate_iron_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:deepslate_copper_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:deepslate_diamond_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:deepslate_redstone_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:obsidian",
+						"speed": 200
+					},
+					{
+						"block": "minecraft:redstone_ore",
+						"speed": 200
+					},
+					{
+						"block": "minecraft:deepslate_coal_ore",
+						"speed": 200
+					},
+
+					{
+						"block": "minecraft:gravel",
+						"speed": 200
+					},
+					{
+						"block": "minecraft:tuff",
+						"speed": 200
+					}
+
+				]
+			},
+			"minecraft:icon": {
+				"texture": "bloodblade"
+			},
+			"minecraft:display_name": {
+				"value": "bloodblade"
+			},
+			"minecraft:weapon": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			}
+		},
+		"events": {}
+	}
+}
