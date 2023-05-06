@@ -1,29 +1,52 @@
 {
-    "format_version": "1.12",
-    "minecraft:recipe_shaped": {
-      "description": {
-        "identifier": "testing:test"
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "testing:test"
+    },
+    "groups": [
+      "testing"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:cobblestone"
       },
-      "groups": [
-        "testing"
-      ],
-      "tags": [
-        "crafting_table"
-      ],
-      "pattern": [
-        "01"
-      ],
-      "key": {
-        "0": {
-          "item": "minecraft:log"
-        },
-        "1": {
-          "item": "minecraft:log"
-        }
+      "1": {
+        "item": "minecraft:cobblestone"
       },
-      "result": {
-        "item": "minecraft:netherite_block",
-        "count": 64
+      "2": {
+        "item": "minecraft:cobblestone"
+      },
+      "3": {
+        "item": "minecraft:cobblestone"
+      },
+      "4": {
+        "item": "noahsreview:blood"
+      },
+      "5": {
+        "item": "minecraft:cobblestone"
+      },
+      "6": {
+        "item": "minecraft:cobblestone"
+      },
+      "7": {
+        "item": "minecraft:cobblestone"
+      },
+      "8": {
+        "item": "minecraft:cobblestone"
       }
+    },
+    "result": {
+      "item": "minecraft:netherite_block",
+      "count": 64
     }
   }
+}
